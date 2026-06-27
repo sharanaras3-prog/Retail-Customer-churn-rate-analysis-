@@ -15,8 +15,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from utils.data_loader import load_data, get_ml_features
-from utils.plot_style import PALETTE, MODEL_COLORS, apply_layout
+from data_loader import load_data, get_ml_features
+from plot_style import PALETTE, MODEL_COLORS, apply_layout
 
 st.set_page_config(page_title="ML Classification", layout="wide")
 

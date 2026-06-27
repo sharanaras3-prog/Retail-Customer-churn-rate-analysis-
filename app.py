@@ -50,7 +50,7 @@ with st.sidebar:
     st.markdown("## 📊 CX Churn Intelligence")
     st.markdown("---")
     st.markdown("**Navigation**")
-    st.page_link("app.py",                                page_title="🏠 Overview",             icon="🏠")
+    st.page_link("app.py",                                label="🏠 Overview",             icon="🏠")
     st.page_link("pages/1_Descriptive_Analysis.py",       page_title="1 · Descriptive Analysis",  icon="📋")
     st.page_link("pages/2_Bias_Detection.py",             page_title="2 · Bias Detection",        icon="🔍")
     st.page_link("pages/3_ML_Classification.py",          page_title="3 · ML Classification",     icon="🤖")
